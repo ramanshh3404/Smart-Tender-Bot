@@ -1,0 +1,14 @@
+# Ignore python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ignore frontend build files and modules
+node_modules/
+dist/
+
+# Ignore actual project data so ONGC PDFs aren't leaked!
+data/uploads/
+data/sqlite_db/
+*.pdf
